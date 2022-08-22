@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app--container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.nav--container {
+    padding: 15px;
+    /* box-shadow: 0 3px 7px red; */
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);;
+}
+
+.navbar {
+    min-height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.navbar > img {
+    width: 100px;
+}
+
+.hero--container {
+    
+}
+
+.hero-container-logo {
+    display: flex;
+    justify-content: center;
+}
+.hero-container-logo > img {
+    max-width: 80%;
+    margin-top: 10px;
+    
+}
+
+.hero--title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.hero--details {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 400px;
+}
+
+.card--container {
+    font-size: 14px;
+    margin: 10px 0;
+    max-width: 200px;
+}
+
+.card--container > img {
+    width: 100%;
+}
+
+.card--rating > img {
+    margin-top: 5px;
+    width: 16px;
+}
+
+.card-rating-gray {
+    color: gray;
+}
+
+.card--detais {
+    margin: 5px 0;
+}
+
+.card--amount {
+    font-weight: 600;
+}
